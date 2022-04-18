@@ -27,7 +27,7 @@ app.post("/login", login);
 app.listen(port, async (req, res) => {
     try {
         await connect();
-        console.log(`Server Running On Port 5000`)
+        console.log(`Server Running On Port 4000`)
     } catch (er) {
         console.log(er.message)
     }
